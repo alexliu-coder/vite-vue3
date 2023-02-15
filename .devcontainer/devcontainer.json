@@ -11,7 +11,10 @@
 		"vscode": {
 			"extensions": [
 				"Vue.volar",
-				"Vue.vscode-typescript-vue-plugin"
+				"Vue.vscode-typescript-vue-plugin",
+				"mhutchie.git-graph",
+				"eamodio.gitlens",
+				"ExodiusStudios.comment-anchors"
 			]
 		}
 	}
