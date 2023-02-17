@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHistory } from 'vue-router';
 // virtual:generated-pages是vite-plugin-pages插件生成的，存储在内存中
 import generatedRoutes from 'virtual:generated-pages';
 // console.log(generatedRoutes);
@@ -8,5 +8,4 @@ import generatedRoutes from 'virtual:generated-pages';
 export const router = createRouter({
 	routes: generatedRoutes,
 	history: createWebHistory()
-})
-
+});

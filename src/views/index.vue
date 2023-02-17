@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import { useRouter } from 'vue-router'
+import { useRouter } from 'vue-router';
 const router = useRouter();
 function goAbout() {
-	router.push('/about')
+	router.push('/about');
 }
 </script>
 

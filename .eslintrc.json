@@ -1,0 +1,33 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:vue/vue3-essential",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "overrides": [
+    ],
+    "parser": "vue-eslint-parser",
+    "parserOptions": {
+        "parser": "@typescript-eslint/parser",
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "vue",
+        "@typescript-eslint"
+    ],
+    "rules": {
+        // 全等
+        "eqeqeq": 1,
+        // 是否使用多词来作为组件名
+        "vue/multi-word-component-names": "off",
+        // 分号;
+        "semi": [2, "always"],
+        // 单引号
+        "quotes": ["error", "single"]
+    }
+}
