@@ -21,6 +21,7 @@
         "@typescript-eslint"
     ],
     "rules": {
+        // eslint配置 https://eslint.bootcss.com/docs/rules/
         // 全等
         "eqeqeq": 1,
         // 是否使用多词来作为组件名
@@ -28,6 +29,22 @@
         // 分号;
         "semi": [2, "always"],
         // 单引号
-        "quotes": ["error", "single"]
+        "quotes": ["error", "single"],
+        // ${} 模版字符串语法必须要在反引号内
+        "no-template-curly-in-string": 1,
+        // 不能出现永远都不执行的代码
+        "no-unreachable": 1,
+        // map find 等数组需要return
+        "array-callback-return": 1,
+        // 类方法如果没有使用到this，可以改写为static静态方法
+        "class-methods-use-this": 1,
+        // switch循环中应该有default
+        "default-case": 1,
+        // for in语句中使用Object.prototype.hasOwnProperty.call(foo, key) 来验证
+        "guard-for-in": 1,
+        // alert、prompt 和 confirm 时，该规则将发出警告
+        "no-alert": 2,
+        // 不能在case里声明变量
+        "no-case-declarations": 2
     }
 }
