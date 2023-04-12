@@ -45,6 +45,7 @@
         // alert、prompt 和 confirm 时，该规则将发出警告
         "no-alert": 2,
         // 不能在case里声明变量
-        "no-case-declarations": 2
+        "no-case-declarations": 2,
+        "@typescript-eslint/no-explicit-any": 0
     }
 }
